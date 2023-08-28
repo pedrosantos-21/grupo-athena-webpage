@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: 'Muller', sans-serif;
+    color: white;
+    background-color: #57178a;
+  }
+  
+  section {
+    background: linear-gradient(to right, #672cb6, #2c0b3d);
+    border-radius: 20px;
+    width: 80%;
+    margin: 0 auto; /* Adiciona margens automáticas para centralizar */
+  }
+  
+  .titulo-site {
+    font-size: 20px;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .legenda-titulo-site,
+  .sobre-o-athena,
+  .faca-parte-do-athena,
+  p,
+  li,
+  .nome-representante,
+  .cargo-representante-grupo-athena {
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .foto-representante-athena {
+    border-radius: 200px;
+    width: 220px;
+    height: 220px;
+    padding: 20px;
+  }
+  
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inscreva-se-button {
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: #8515dd;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+  }
+  
+  .inscreva-se-button a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+  
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .logotipo-athena {
+    border-radius: 40px;
+    padding: 20px;
+    width: 220px;
+    height: 220px;
+  }
+  
+  .redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .logotipo-facebook,
+  .logotipo-instagram,
+  .logotipo-linkedin,
+  .logotipo-gmail {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 10px;
+  }
+  
+  /* Estilos para o menu */
+  .menu-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #5d0c74;
+    width: 100%;
+  }
+  
+  .menu-container a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .menu-container a:hover {
+    color: #8515dd;
+  }
+  
+  .email-grupo-athena {
+      font-size: 15px;
+  }
+  
+  
+  /* Ajustes para responsividade em telas menores */
+  @media (max-width: 768px) {
+    .titulo-site {
+      font-size: 18px;
+      padding: 10px;
+    }
+  
+    .legenda-titulo-site,
+    .sobre-o-athena,
+    .faca-parte-do-athena,
+    p,
+    li,
+    .nome-representante,
+    .cargo-representante-grupo-athena {
+      font-size: 20px;
+      margin: 10px;
+      padding: 5px;
+    }
+  
+    .foto-representante-athena,
+    .logotipo-athena,
+    .foto-athena {
+      width: 150px;
+      height: 150px;
+      padding: 10px;
+    }
+  
+    .inscreva-se-button {
+      font-size: 14px;
+      padding: .5rem 1rem;
+      margin-top: 10px;
+    }
+  
+    .logotipo-facebook,
+    .logotipo-instagram,
+    .logotipo-linkedin,
+    .logotipo-gmail {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+      padding: 5px;
+    }
+  
+    footer {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  
