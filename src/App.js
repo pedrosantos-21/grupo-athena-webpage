@@ -48,7 +48,7 @@ function App() {
   <p>Agora é a hora de dar um passo audacioso em direção a um futuro brilhante. O Athena está à espera de mentes curiosas, determinadas e apaixonadas para se unirem a nós nessa jornada emocionante. Juntas, podemos quebrar barreiras, alcançar nossos objetivos e inspirar outros a seguirem nossos passos.</p>
   <p>Não perca a oportunidade de ser parte dessa transformação. Junte-se ao Grupo Athena e seja uma força motriz na promoção da igualdade de gênero e no avanço das Ciências Exatas. Estamos ansiosas para recebê-la de braços abertos!</p>
   <div class="center">
-    <button class="inscreva-se-button"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd_p8HHTq9e-r5gLgjRZmnsKrIbMwpUEmPzfM5Uf82LfpB1xQ/viewform?usp=sf_link" target="_blank">Inscreva-se</a></button>
+    <button class="inscreva-se-button"><a href="" target="_blank">Inscreva-se</a></button>
     <section>
   <div class="center">
     <img class="foto-representante-athena" src="https://avatars.githubusercontent.com/u/94319702?v=4" alt="Representante Athena Unima/Afya" />
